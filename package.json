@@ -1,0 +1,17 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "description": "Task Management CRUD Api",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "dev": "SET NODE_ENV=development&nodemon app.js",
+    "prod": "SET NODE_ENV=production&node app.js"
+  },
+  "author": "Aniket Chougule",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.8.4"
+  }
+}
